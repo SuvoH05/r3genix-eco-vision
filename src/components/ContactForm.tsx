@@ -122,7 +122,7 @@ const ContactForm = () => {
           <div className="text-center">
             <div className="text-2xl mb-2">📧</div>
             <div className="text-sm font-medium text-forest-700">Email</div>
-            <div className="text-sm text-forest-600">hello@r3genix.com</div>
+            <div className="text-sm text-forest-600">r3genixpvt@gmail.com</div>
           </div>
           <div className="text-center">
             <div className="text-2xl mb-2">🌍</div>

@@ -156,7 +156,7 @@ const TeamSection = () => {
         {/* Team Stats */}
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="text-center p-6 bg-gradient-earth rounded-lg">
-            <div className="text-3xl font-bold text-earth-600 mb-2">6</div>
+            <div className="text-3xl font-bold text-earth-600 mb-2">10</div>
             <div className="text-sm text-forest-600">Team Members</div>
           </div>
           <div className="text-center p-6 bg-gradient-earth rounded-lg">

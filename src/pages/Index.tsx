@@ -400,7 +400,7 @@ const Index = () => {
             </div>
             <div>
               <h4 className="font-semibold mb-4">Contact Info</h4>
-              <p className="text-green-100">hello@r3genix.com</p>
+              <p className="text-green-100">r3genixpvt@gmail.com</p>
               <p className="text-green-100">Building a sustainable future</p>
             </div>
           </div>
