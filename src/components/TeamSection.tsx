@@ -6,53 +6,89 @@ import { Badge } from "@/components/ui/badge";
 const TeamSection = () => {
   const teamMembers = [
     {
-      name: "Alex Chen",
-      role: "Project Lead & Strategy",
+      name: "Tanmoy Das",
+      role: "Team Lead",
       icon: Target,
-      strengths: ["Strategic thinking", "Leadership", "Problem-solving"],
-      weaknesses: ["Detail-oriented tasks", "Technical implementation"],
-      description: "Visionary leader driving R3GENIX's mission with 5+ years in sustainability consulting."
+      strengths: ["Leadership"],
+      weaknesses: ["Restless",],
+      description: "Leads the R3GENIX vision with strategic foresight and hands-on guidance, driving collaboration and progress across all departments."
     },
     {
-      name: "Maya Patel",
-      role: "AI Developer & Tech Lead",
+      name: "Sambaran Das",
+      role: "Technical Lead",
       icon: Brain,
-      strengths: ["Machine Learning", "Data Analysis", "Algorithm Design"],
-      weaknesses: ["Public speaking", "Marketing"],
-      description: "AI specialist developing our core recycling classification algorithms."
+      strengths: ["Bug Fixing"],
+      weaknesses: ["Public Speaking"],
+      description: "Architect of R3GENIX’s AI backbone, specializing in precision debugging and algorithm development for waste classification systems."
     },
     {
-      name: "Jordan Rivera",
-      role: "Full-Stack Developer",
+      name: "Sayan Ghosh",
+      role: "Operating Lead",
       icon: Code,
-      strengths: ["Web Development", "Database Design", "API Integration"],
-      weaknesses: ["UI/UX Design", "Business strategy"],
-      description: "Building our platform infrastructure and user-facing applications."
+      strengths: ["Management"],
+      weaknesses: ["Procastination"],
+      description: "Coordinates daily operations and technical workflows, ensuring smooth implementation of project pipelines and timely deliverables."
     },
     {
-      name: "Sam Kim",
-      role: "Outreach Coordinator",
+      name: "Suvojoti Howlader",
+      role: "Project Manager",
       icon: Megaphone,
-      strengths: ["Communication", "Community Building", "Social Media"],
-      weaknesses: ["Technical skills", "Data analysis"],
-      description: "Connecting with communities and building awareness for sustainable practices."
+      strengths: ["Coding"],
+      weaknesses: ["Procastination"],
+      description: "Bridges technical development with real-world impact, combining coding expertise with social outreach for sustainability adoption."
     },
     {
-      name: "Taylor Brooks",
+      name: "Aunkita Biswas",
       role: "UX/UI Designer",
       icon: MessageSquare,
-      strengths: ["User Research", "Visual Design", "Prototyping"],
-      weaknesses: ["Backend development", "Business operations"],
-      description: "Creating intuitive and engaging user experiences for our platforms."
+      strengths: ["Creative Mind"],
+      weaknesses: ["Stubborness"],
+      description: "Designs compelling and intuitive user interfaces, bringing creativity and clarity to the R3GENIX user experience."
     },
     {
-      name: "Riley Zhang",
+      name: "Somita Roy",
+      role: "Public Relation",
+      icon: Users,
+      strengths: ["Public Relation"],
+      weaknesses: ["Imapatience"],
+      description: "Drives brand visibility and cultivates external partnerships, ensuring operational alignment and strategic collaboration."
+    },
+    {
+      name: "Ankita Mitra",
       role: "Business Operations",
       icon: Users,
-      strengths: ["Operations", "Finance", "Partnership Development"],
-      weaknesses: ["Technical implementation", "Design"],
-      description: "Managing operations and developing strategic partnerships for growth."
+      strengths: ["Editing"],
+      weaknesses: ["Short Temper"],
+      description: "Oversees internal communications and content refinement, contributing to quality control and brand consistency in operations."
+    
+    },
+    {
+      name: "Sihab Alfaz",
+      role: "Business Operations",
+      icon: Users,
+      strengths: ["Finance"],
+      weaknesses: ["Absence Mind"],
+      description: "Focuses on financial structuring and budgeting to support R3GENIX’s sustainable and scalable business model."
+    
+    },
+    {
+      name: "Swastika Datta",
+      role: "Business Operations",
+      icon: Users,
+      strengths: ["Marketing"],
+      weaknesses: ["Infelxibility"],
+      description: "Crafts and executes marketing strategies to position R3GENIX as a leader in the green innovation space."
     }
+    ,
+    {
+      name: "Mohhamed Kaif Ejaz",
+      role: "Business Operations",
+      icon: Users,
+      strengths: ["Debbuging"],
+      weaknesses: ["Unstructured"],
+      description: "Supports backend operations with a sharp eye for bugs and system inconsistencies, ensuring platform reliability."
+    }
+
   ];
 
   return (

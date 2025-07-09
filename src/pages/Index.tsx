@@ -19,7 +19,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white"> 
       <Navigation />
       
       {/* Hero Section */}
@@ -95,7 +95,7 @@ const Index = () => {
                   <ul className="space-y-3 text-forest-600">
                     <li className="flex items-center gap-2">
                       <Badge variant="secondary" className="bg-earth-100">✓</Badge>
-                      Identified $1.28 trillion waste market opportunity
+                      Identified waste market opportunity
                     </li>
                     <li className="flex items-center gap-2">
                       <Badge variant="secondary" className="bg-earth-100">✓</Badge>
@@ -157,10 +157,10 @@ const Index = () => {
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
               {[
-                { period: "Months 1-3", title: "Foundation", items: ["Online store launch", "Brand development", "Core team assembly"] },
-                { period: "Months 4-6", title: "Growth", items: ["Team expansion", "First customers", "Product refinement"] },
-                { period: "Months 7-9", title: "Scale", items: ["Operations scaling", "Marketing campaigns", "Partnerships"] },
-                { period: "Months 10-12", title: "Expansion", items: ["B2B partnerships", "Loyalty programs", "Global reach"] }
+                { period: "Month 1", title: "Foundation", items: ["Online store launch", "Brand development", "Core team assembly"] },
+                { period: "Month 2", title: "Growth", items: ["Team expansion", "First customers", "Product refinement"] },
+                { period: "Month 3", title: "Scale", items: ["Operations scaling", "Marketing campaigns", "Partnerships"] },
+                { period: "Month 4", title: "Expansion", items: ["B2B partnerships", "Loyalty programs", "Global reach"] }
               ].map((phase, index) => (
                 <Card key={index} className="hover:shadow-lg transition-all hover:scale-105">
                   <CardHeader className="pb-3">
